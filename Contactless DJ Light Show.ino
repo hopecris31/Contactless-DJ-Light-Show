@@ -1,5 +1,14 @@
 #include <SoftwareSerial.h>
 
+/*
+* Code for an Arduino system that would play music and flash lights depending on 
+* proximity to an ultrasonic sensor.  Music is played by sending MIDI signals to
+* a digitial audio software, which would then produce the sound.
+*
+*   Hope Crisafi, Matthew Bohl
+*   11/17/2022
+*/
+
 //rx, tx pins. pin 5 is the transmit pin
 SoftwareSerial SerialMIDI(4,5);
 
